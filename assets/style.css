@@ -21,3 +21,9 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.subtitle {
+display: flex;
+align-items: center;
+justify-content: center;
+}
