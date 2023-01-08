@@ -1,3 +1,17 @@
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    color: rgb(3, 3, 122);
+
+}
+h2{
+
+}
+h3{
+
+}
+
+
+
 header {
     display: flex;
     flex-direction: column;
