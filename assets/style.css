@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+}
+
+
 h1{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3vw;
     color: rgb(3, 3, 122);
@@ -16,6 +21,7 @@ h3{font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 header {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,3 +33,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+.card {
+    border: 3px; 
+    border-color: black;
+}
+
+.jumbotron {
+    background-image: url("./images/background\ -\ Copy.jpg");
+    background-size: cover;
+  }
