@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>Random Password Generator</h1>
-        <h2> by <em>Ian Millichamp</em></h2>
+        <h2>Author <h3>I Millichamp</h3></h2>
     </header>
     <div class="jumbotron jumbotron-fluid bg-dark">
         <div class="container">
@@ -25,13 +25,15 @@
                 </div>
                 <div class="card-body">
                     <div class="result_container">
-                        <input type="text" id="result">
-                        <button class="copy-result bg-primary" id="copy">
+                        <input type="text" placeholder="Generate Password" id="password" readonly>
+                        <button class="copy-result bg-primary" id="copy" onclick="copyPassword()">
                           <h4>Copy</h4>
                         </button>
                       </div>
                     
-                    <a href="#" class="btn btn-danger"><h5>Generate Password</h5></a>
+                      <button class="generatePasswordBtn bg-danger"  onclick="generatePassword()">
+                        <h5>Generate Password</h5>
+                      </button>
                 </div>
                 <div class="card-footer text-muted bg-primary">
 
@@ -46,7 +48,7 @@
 
 
 
-
+<script src="./assets/index.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -57,7 +59,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="./assets/index.js"></script>
+   
 </body>
 
 </html>
