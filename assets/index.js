@@ -33,11 +33,18 @@ for (let i = 0; i <= passwordLength; i++) {
         document.getElementById("password").value = password;
 }
 // lastly create a function to allow the copy button to copy the random generated password on to the clipboard for the user.
-function CopyPassword () {
-    // create a variable to be equal to  the value of the id (password)
-    let copyPW = document.getElementById("password");
-   // use the select option to grab the value of the copyPassword variable
-    copyPW.select();
-    // then use the method execCommand to copy the value
-document.execCommand("copy");
-}
+function copyPassword() {
+    // then Get the text field
+    let copyText = document.getElementById("password");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the password: " + copyText.value);
+  }
+  // function for copy button and understanding of process from w3school
