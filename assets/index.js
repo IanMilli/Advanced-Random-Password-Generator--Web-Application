@@ -1,7 +1,7 @@
 //create Javascript to enable password generator to work
 //create a variable that connects to the inputs id - password
 let password = document.getElementById("password");
-
+console.log(password)
 //create a function for generating the password
 
 function generatePassword() {
@@ -31,3 +31,13 @@ for (let i = 0; i < passwordLength.length; i++) {
 }
 // assign the password to the input box . This will allow the pass word to be seen in it.
 document.getElementById("password").value = password
+
+// lastly create a function to allow the copy button to copy the random generated password on to the clipboard for the user.
+function Copy () {
+    // create a variable to be equal to  the value of the id (password)
+    let copyPassword = document.getElementById("password");
+   // use the select option to grab the value of the copyPassword variable
+    copyPassword.select();
+    // then use the method execCommand to copy the value
+document.execCommand("copy");
+}
