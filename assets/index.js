@@ -15,7 +15,7 @@ console.log(passwordLength)
 
 //define a variable for password in the function to equal the symbols from the string in the variable characters
 let password = "";
-}
+
 
 // create the random pass word using a for loop and the Math.random function
 /*  1) change all uses of the word index to i
@@ -24,14 +24,14 @@ let password = "";
     4) make a variable - random characters that is equal to the Math.floor function which is composed of the math.random function picking any character from along the length of the characters variable string element.
     5) finish the for loop by using the += operator to add the value of characters substring to the password variable
 */
-for (let i = 0; i < passwordLength.length; i++) {
+for (let i = 0; i <= passwordLength.length; i++) {
     let  randomCharacter = Math.floor(Math.random() * characters.length);
     password += characters.substring(randomCharacter,randomCharacter +1);
     
 }
 // assign the password to the input box . This will allow the pass word to be seen in it.
-document.getElementById("password").value = password
-
+        document.getElementById("password").value = password;
+}
 // lastly create a function to allow the copy button to copy the random generated password on to the clipboard for the user.
 function Copy () {
     // create a variable to be equal to  the value of the id (password)
