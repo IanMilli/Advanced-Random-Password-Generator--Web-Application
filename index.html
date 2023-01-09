@@ -25,13 +25,15 @@
                 </div>
                 <div class="card-body">
                     <div class="result_container">
-                        <input type="text" id="result">
-                        <button class="copy-result bg-primary" id="copy" onclick="generatePassword()">
+                        <input type="text" placeholder="Generate Password"id="password" readonly>
+                        <button class="copy-result bg-primary" id="copy" onclick="copyPassword()">
                           <h4>Copy</h4>
                         </button>
                       </div>
                     
-                    <a href="#" class="btn btn-danger"><h5>Generate Password</h5></a>
+                      <button class="copy-result bg-danger" id="copy" onclick="generatePassword()">
+                        <h5>Generate Password</h5>
+                      </button>
                 </div>
                 <div class="card-footer text-muted bg-primary">
 
