@@ -109,4 +109,4 @@ function copyPassword() {
     // Alert the copied text
     alert("Copied the password: " + copyText.value);
   }
-  // function for copy button and understanding of process from w3school
+  /*function for copy button and understanding of process from w3school*/
