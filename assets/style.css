@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    background-color: rgb(17, 123, 243);
 }
 
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4vw;
-    color: #03037a;
+    color: black;
 
 }
 h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,14 +14,15 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 
 }
 h3{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #03037a;
 
 
 }
 h4{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
+    font-size: 3.5vw;
     color: white;
+    background-color: black;
 
 }
 h5{font-family: Georgia, 'Times New Roman', Times, serif;
