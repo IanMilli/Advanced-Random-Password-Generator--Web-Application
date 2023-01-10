@@ -31,8 +31,10 @@ further information on this web application can be found at its github repositor
 
 ## Screenshots
 
-
-
+initial appearance of the web application <img src="..\assets\images\readme Screenshots\initial view.PNG" alt="Initial Image" />
+prompt requesting parameter for password length <img src="..assets\images\readme Screenshots\prompt asking for required number of characters.jpg" alt="Initial Image" />
+displayed random generated password <img src="..\assets\images\readme Screenshots\generated password.PNG" alt="Initial Image" />
+prompt confirming randomly generated password is copied to the clipboard <img src="..\assets\images\readme Screenshots\prompt confirming password has copied to the clipboard.jpg" alt="Initial Image" />
 ## Credits
 
 Author Ian Millichamp
