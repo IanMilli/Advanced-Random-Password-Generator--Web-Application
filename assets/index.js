@@ -19,7 +19,14 @@ console.log(characters);
 // we have been asked to give the password a length of 10 -64  characters depending on user input therefore i will create the following variable.
 let passwordLength = prompt("Please define number of required Characters( Minimum 10, Maximum 64");
 console.log(passwordLength);
+// Loop if answer is outside the parameters 
+while(passwordLength <= 10 || passwordLength >= 64) {
+    alert("Password length must be between 10-64 characters, Please Try again");
+    let passwordLength = (prompt("How many characters would you like your password to contain?"));
+    } 
 
+    // Repeat back how many characters the user will have  
+    alert(`Your password will have ${passwordLength} characters`);
 //define a variable for password in the function to equal the symbols from the string in the variable characters
 let password = "";
 console.log(password);
@@ -31,7 +38,7 @@ console.log(password);
     4) make a variable - random characters that is equal to the Math.floor function which is composed of the math.random function picking any character from along the length of the characters variable string element.
     5) finish the for loop by using the += operator to add the value of characters substring to the password variable
 */
-for (let i = 0; i <= passwordLength; i++) {
+for (let i = 0; i <= passwordLength - 1; i++) {
     let  randomCharacter = Math.floor(Math.random() * characters.length);
     password += characters.substring(randomCharacter,randomCharacter +1);
     
