@@ -25,7 +25,7 @@ the response from the user is returned as a number rather than a string*/
 
 function promptForLength() {
     passwordLength = parseInt (prompt("Please define number of required Characters( Minimum 10, Maximum 64"));
-    if (passwordLength <= 10 || passwordLength >= 64 || Number.isNaN(passwordLength)){
+    if (passwordLength <= 9 || passwordLength >= 65 || Number.isNaN(passwordLength)){
         alert("Password length must be between 10-64 characters, Please Try again");
         passwordLength = 0;
         promptForLength();
@@ -54,7 +54,7 @@ function promptForCharacterTypes() {
         includeNum === false &&
         includeSym === false) {
         alert("At least one character type needs to be selected");
-
+      
         promptForCharacterTypes();
     }
 
@@ -67,13 +67,7 @@ variables, includeLC,includeUC, includeNum,includeSym but can combine them into 
 
 /* we can now create a function to generate the random password having used the above functions to determine the length of the password and the required characters of the password*/
 function generatePassword() {
- //create a variable that contains all letters/special symbols/ numbers that the random password can be made from   
-   let characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!£%^&*()_+-={}[]:@~#<>?,./|";
 
-   
-console.log(characters);
-// note had to remove some symbols as they have effect on javascript such as $;'.
-// we have been asked to give the password a length of 10 -64  characters depending on user input therefore i will create the following variable.
 promptForLength();
 console.log(passwordLength);
 // Loop if answer is outside the parameters 
@@ -84,7 +78,11 @@ console.log(passwordLength);
     promptForCharacterTypes();    //define a variable for password in the function to equal the symbols from the string in the variable characters
 let password = "";
 console.log(password);
-
+console.log("password Length = ", passwordLength);
+console.log("lowercase = ", includeLC);
+console.log("uppercase = ", includeUC);
+console.log("password numbers = ", includeNum);
+console.log("password symbols = ", includeSym);
 // create the random pass word using a for loop and the Math.random function
 /*  1) change all uses of the word index to i
     2) set index to be less than or equal to the variable password length to ensure the generated password has no more than 12 characters
@@ -92,11 +90,9 @@ console.log(password);
     4) make a variable - random characters that is equal to the Math.floor function which is composed of the math.random function picking any character from along the length of the characters variable string element.
     5) finish the for loop by using the += operator to add the value of characters substring to the password variable
 */
-console.log("password Length = ", passwordLength);
-console.log("lowercase = ", includeLC);
-console.log("uppercase = ", includeUC);
-console.log("password numbers = ", includeNum);
-console.log("password symbols = ", includeSym);
+
+console.log(validCharacters);
+
 for (let i = 0; i <= passwordLength - 1; i++) {
     let  randomCharacter = Math.floor(Math.random() * validCharacters.length);
     password += validCharacters.substring(randomCharacter,randomCharacter +1);
