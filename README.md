@@ -8,6 +8,8 @@ provided my prompts provided to the user.
 
 The generator will provide passwords of character length between 10 and 64 characters.Depending on user selection the password will contain Upper-class Characters, Lower-class Characters, Symbols, Numbers.  
 
+Technologies Used: HTML5, CSS3, JavaScript, Bootstrap, FlexBox
+
 
 ## Table of Contents (Optional)
 
@@ -48,7 +50,7 @@ Week 4 and 5 Bootcamp classes Javascript usage
 MDN Documents
 W3 School
 Dev.to - random password generator using javascript
-git hub - Tiffany Case - random password generator (2020)
+git hub - https://github.com/TiffanyCasey/Password-Generator - Tiffany Casey
 webdesign.tuts.com/tutorial/random-password-generator-with javascript
 
 
