@@ -39,6 +39,18 @@ initial appearance of the web application on a mobile in landscape <img src="..\
 
 alert confirming number of characters requested by user in the password <img src="..\assets\images\readme Screenshots\alert confirming number of characters of the password.jpg" alt="confirmation number of characters in the password">
 
+prompt confirming if the user requires lowercase letters in the password <img src="..\assets\images\readme Screenshots\prompt for user if require lowercase letters.jpg" alt="does the user want lowercase letters">
+
+prompt confirming if the user requires uppercase letters in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires uppercase letters.jpg" alt="does the user want uppercase letters">
+
+prompt confirming if the user requires numbers in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires numbers.jpg" alt="does the user want numbers letters">
+
+prompt confirming if the user requires symbols in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires special symbols.jpg" alt="does the user want symbols letters">
+
+displaying a generated password <img src="..\assets\images\readme Screenshots\displaying generated password.jpg" alt="example of generated password">
+
+prompt confirming password copied to the users clipboard <img src="..\assets\images\readme Screenshots\prompt showing password has been added to clipboard.jpg" alt="confirmation of copied password">
+
 ## Credits
 
 Author Ian Millichamp
