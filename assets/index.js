@@ -119,6 +119,4 @@ function copyPassword() {
   
 /*Alert the copied text*/
     alert("Copied the password: " + copyText.value);
-}
-/*function for copy button and understanding of process from w3school*/
-/*functions to determine passwords length and contents of password produced with collaboration with tutor Suresh M Kumar. */
+
