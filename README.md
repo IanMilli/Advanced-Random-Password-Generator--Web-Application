@@ -33,10 +33,24 @@ further information on this web application can be found at its github repositor
 
 ## Screenshots
 
-initial appearance of the web application <img src="..\assets\images\readme Screenshots\initial view.PNG" alt="Initial Image" />
-prompt requesting parameter for password length <img src="..assets\images\readme Screenshots\prompt asking for required number of characters.jpg" alt="Initial Image" />
-displayed random generated password <img src="..\assets\images\readme Screenshots\generated password.PNG" alt="Initial Image" />
-prompt confirming randomly generated password is copied to the clipboard <img src="..\assets\images\readme Screenshots\prompt confirming password has copied to the clipboard.jpg" alt="Initial Image" />
+initial appearance of the web application on a mobile in portrait <img src="..\assets\images\readme Screenshots\initial view in portrait on mobile screen.jpg" alt="Initial Image on mobile in portrait" />
+
+initial appearance of the web application on a mobile in landscape <img src="..\assets\images\readme Screenshots\initial view in landscape on mobile screen (1).jpg" alt="Initial image on mobile in landscape">
+
+alert confirming number of characters requested by user in the password <img src="..\assets\images\readme Screenshots\alert confirming number of characters of the password.jpg" alt="confirmation number of characters in the password">
+
+prompt confirming if the user requires lowercase letters in the password <img src="..\assets\images\readme Screenshots\prompt for user if require lowercase letters.jpg" alt="does the user want lowercase letters">
+
+prompt confirming if the user requires uppercase letters in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires uppercase letters.jpg" alt="does the user want uppercase letters">
+
+prompt confirming if the user requires numbers in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires numbers.jpg" alt="does the user want numbers letters">
+
+prompt confirming if the user requires symbols in the password <img src="..\assets\images\readme Screenshots\prompt for if user requires special symbols.jpg" alt="does the user want symbols letters">
+
+displaying a generated password <img src="..\assets\images\readme Screenshots\displaying generated password.jpg" alt="example of generated password">
+
+prompt confirming password copied to the users clipboard <img src="..\assets\images\readme Screenshots\prompt showing password has been added to clipboard.jpg" alt="confirmation of copied password">
+
 ## Credits
 
 Author Ian Millichamp
@@ -88,3 +102,6 @@ Copy Feature to add Generated Password to the users clipboard
 ## Tests
 
 produced passwords of multiple lengths and parameters produced by the random password generator
+- NKaUXhzltmpwLVnNFgKcxDD - 23 characters, uppercase, lowercase only
+- PUA=uv-Fkv}T - 12 characters, uppercase and symbols only
+- 5277776331617756996677182217849924141664356043340965708 - 55 number only
