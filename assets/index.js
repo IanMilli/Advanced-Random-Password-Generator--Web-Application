@@ -4,13 +4,20 @@ let password=document.getElementById("password");
 console.log(password);
 //create a function for generating the password
 
+//in order to adapt password generator based on project requirements I have edited out the original variable array and will create a new one
+//for characters using math.floor and math random. but first we need to set up the password length field which will be adjusted by user input.
+
+
+
 function generatePassword() {
  //create a variable that contains all letters/special symbols/ numbers that the random password can be made from   
-    let characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!£%^&*()_+-={}[]:@~#<>?,./|";
+   let characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!£%^&*()_+-={}[]:@~#<>?,./|";
+
+   
 console.log(characters);
 // note had to remove some symbols as they have effect on javascript such as $;'.
-// we have been asked to give the password a length of 12 characters therefore i will create a variable equal to 12.
-let passwordLength = 12;
+// we have been asked to give the password a length of 10 -64  characters depending on user input therefore i will create the following variable.
+let passwordLength = prompt("Please define number of required Characters( Minimum 10, Maximum 64");
 console.log(passwordLength);
 
 //define a variable for password in the function to equal the symbols from the string in the variable characters
