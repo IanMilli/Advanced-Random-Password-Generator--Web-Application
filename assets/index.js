@@ -67,10 +67,7 @@ variables, includeLC,includeUC, includeNum,includeSym but can combine them into 
 
 /* we can now create a function to generate the random password having used the above functions to determine the length of the password and the required characters of the password*/
 function generatePassword() {
- //create a variable that contains all letters/special symbols/ numbers that the random password can be made from   
-  
-// note had to remove some symbols as they have effect on javascript such as $;'.
-// we have been asked to give the password a length of 10 -64  characters depending on user input therefore i will create the following variable.
+
 promptForLength();
 console.log(passwordLength);
 // Loop if answer is outside the parameters 
