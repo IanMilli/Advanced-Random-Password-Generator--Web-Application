@@ -5,7 +5,7 @@ body {
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4vw;
-    color: rgb(3, 3, 122);
+    color: #03037a;
 
 }
 h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,7 +14,8 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 }
 h3{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3vw;
-    color: rgb(3, 3, 122);
+    color: #03037a;
+
 
 }
 h4{font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,7 +27,11 @@ h5{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2vw;
     color: white;}
 
-
+h6{font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2vw;
+        color: white;
+    
+    }
 header {
     margin-top: 5rem;
     display: flex;
@@ -49,7 +54,7 @@ width: 100%;
 }
 
 .jumbotron {
-    background-image: url("./images/background\ -\ Copy.jpg");
+    background-image: url("./images/background-copy.jpg");
     background-size: cover;
   }
 
@@ -59,6 +64,11 @@ width: 100%;
     justify-content: center;
     margin-bottom: 1em;
     
+  }
+
+  input{
+    height: 3.5vw;
+    margin-right: 4vw;
   }
   
   
