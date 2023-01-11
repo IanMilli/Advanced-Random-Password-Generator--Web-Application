@@ -33,6 +33,8 @@ function promptForLength() {
 }
 
 function promptForCharacterTypes() {
+    validCharacters = "";
+    
     includeLC = confirm("Press OK to include lowercase characters in the password");
     if (includeLC === true) {
         validCharacters += lowerCase;

@@ -57,7 +57,7 @@ Author Ian Millichamp
 
 Credit to
 Tutorial with Suresh S Kumar 3pm 10/01/23
-
+pod 7 question to Scott Nelson -TA regards final bug that meant that the promptForCharacterTypes function was returning previous values confusing future generated passwords. - solution resetting variable validCharacters to a empty string at the start rather than the end of the function.
 Reference 
 Week 1, 2 and 3  Bootcamp classes - HTML and CSS code
 Week 4 and 5 Bootcamp classes Javascript usage
