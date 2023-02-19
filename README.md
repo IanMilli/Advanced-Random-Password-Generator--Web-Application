@@ -50,6 +50,8 @@
 
    The user should access the project via the link for the deployed application in [Links](#links) and then click on the Red Generate Password button and make selections based on the prompts, this will lead to the production of the required password at the required length and with the required content.
 
+   For a video that gives an example of how to use the application please refer to the following [video link](https://drive.google.com/file/d/1k3Ag5q_0v0_j3Z16LaDDxEFVml-N_EZe/view).
+
    ## Screenshots
 
    yes, this is a placeholder for screenshots to be added
