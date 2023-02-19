@@ -69,7 +69,7 @@ height determined by its contents*/
 
 /*styling to the cardMain class to give it a background image that is set to cover to fill the jumbotron and no repeat so on larger displays the image does not repeat itself. */
 .cardMain {
-    background-image: url("./images/backgroundInput1.jpg");
+    background-image: url("./images/backgroundinput1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
