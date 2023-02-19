@@ -22,6 +22,9 @@
    ## Description
 
    The creation of a advanced random password generator that will allow a user to define a password of between 10 and 64 characters containing should the user select the lowercase letters, uppercase letters, special symbols and numbers.
+   
+   The following is a gif that demonstrates the application in operation:
+   * ![advanced random password generator gif](https://user-images.githubusercontent.com/120601739/219956376-07c5565b-d7a7-411f-90ba-27e43651f115.gif)
 
    ## Technologies
 
@@ -50,13 +53,41 @@
 
    The user should access the project via the link for the deployed application in [Links](#links) and then click on the Red Generate Password button and make selections based on the prompts, this will lead to the production of the required password at the required length and with the required content.
 
-   For a video that gives an example of how to use the application please refer to the following [video link](https://drive.google.com/file/d/1k3Ag5q_0v0_j3Z16LaDDxEFVml-N_EZe/view).
+  *  For a video that gives an example of how to use the application please refer to the following [video link](https://drive.google.com/file/d/1k3Ag5q_0v0_j3Z16LaDDxEFVml-N_EZe/view).
+  *or scan the following QR code:
+  ![qr-code ](https://user-images.githubusercontent.com/120601739/219956317-60f973d9-6f40-4baf-ae6a-e939ab28a193.png)
+
+   
 
    ## Screenshots
+   
+   Screenshots taken on a mobile device to demonstrate the responsiveness of the application
 
-   yes, this is a placeholder for screenshots to be added
+   * Screenshot to show the first page the user sees 
+![IMG_0527](https://user-images.githubusercontent.com/120601739/219956430-0c475d9e-734e-4f24-a6ee-e65e5f52adb7.PNG)
+
+* Screenshot to show the first thing the user sees when they click the "generate password" button
+![IMG_0528](https://user-images.githubusercontent.com/120601739/219956485-4c79a184-b247-400e-bbf8-69ffde030d4d.PNG)
+
+* Screenshot to show a users input
+![IMG_0529](https://user-images.githubusercontent.com/120601739/219956568-8facfc55-3436-4833-b304-b03b6e390504.PNG)
+
+* Screenshot to show a prompt confirming the users input
+![IMG_0530](https://user-images.githubusercontent.com/120601739/219956597-7580cd4e-6eb7-4fa2-8f91-b440b72a02bf.PNG)
+
+* Screenshots to show following selection prompts
+![IMG_0531](https://user-images.githubusercontent.com/120601739/219956646-e602dc6f-1c6e-469e-b718-fbed54a90fd1.PNG)
+![IMG_0532](https://user-images.githubusercontent.com/120601739/219956653-59d91228-4bf5-498c-969e-d37cb2aeb874.PNG)
+![IMG_0533](https://user-images.githubusercontent.com/120601739/219956663-766a993a-749f-4849-9290-eb40bce51f40.PNG)
+
+* Screenshot to show the copy button confirmation
+![IMG_0534](https://user-images.githubusercontent.com/120601739/219956712-c7276df6-6348-4600-961a-9b9a30987d62.PNG)
+
+* Screenshot to show the user pasting the new password from their clipboard
+![IMG_0535](https://user-images.githubusercontent.com/120601739/219956726-bfa3fa35-e496-490c-894a-e3fb5d827c49.PNG)
 
    ## Tests
+
 
    produced passwords of multiple lengths and parameters produced by the random password generator
 - NKaUXhzltmpwLVnNFgKcxDD - 23 characters, uppercase, lowercase only
